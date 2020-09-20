@@ -24,8 +24,8 @@ end
 
 def initial_round
   deal_card
+  display_card_total
   deal_card
-  p deal_card + deal_card
   display_card_total
 end
 
