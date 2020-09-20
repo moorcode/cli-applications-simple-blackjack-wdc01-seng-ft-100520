@@ -3,7 +3,8 @@ def welcome
 end
 
 def deal_card
-  puts rand(1..11)
+  random_number = rand(1..11)
+  puts random_number
 end
 
 def display_card_total(card_total)
@@ -51,5 +52,5 @@ end
 #####################################################
 
 def runner
-    # code runner here
+      # code runner here
 end
