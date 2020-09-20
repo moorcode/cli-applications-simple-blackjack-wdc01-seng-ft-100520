@@ -6,10 +6,6 @@ def deal_card
   p rand(1..11)
 end
 
-def dealt_sum(deal_card)
-  card_total += deal_card
-end
-
 def display_card_total(card_total)
   puts "Your cards add up to #{card_total}"
 end
@@ -29,7 +25,6 @@ end
 def initial_round
   deal_card
   deal_card
-  dealt_sum
 end
 
 def hit?(number)
