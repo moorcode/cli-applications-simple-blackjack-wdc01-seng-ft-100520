@@ -32,7 +32,7 @@ def hit?(number)
   prompt_user
   get_user_input
   if get_user_input == 's'
-    end_game  
+    end_game
   elsif get_user_input == 'h'
     deal_card
     card_total += deal_card
@@ -53,4 +53,3 @@ end
 def runner
   # code runner here
 end
-    
