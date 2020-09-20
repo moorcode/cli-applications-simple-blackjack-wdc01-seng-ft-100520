@@ -25,7 +25,7 @@ end
 def initial_round
   deal_card
   deal_card
-  put deal_card + deal_card
+  puts deal_card + deal_card
 end
 
 def hit?(number)
